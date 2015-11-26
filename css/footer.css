@@ -1,9 +1,9 @@
 footer {
-  width: 996px;
-  position: fixed;
+  width: 896px;
+  height: 105px;
+  position: absolute;
   bottom: 0;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .logo_apple_copy {

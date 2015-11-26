@@ -1,0 +1,56 @@
+section.action {
+  background-color: #f8f8f8;
+  margin-top: 50px;
+  height: 184px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+}
+
+section.action > div {
+  width: 896px;
+  height: 154px;
+  background: url(../img/ornament_left.png) left top no-repeat, url(../img/ornament_right.png) right top no-repeat;
+  position: absolute;
+  top: 30px;
+}
+
+section.action > div img {
+  padding-top: 50px;
+  position: absolute;
+  left: -20px
+}
+
+section.action > div h2 {
+  position: absolute;
+  top: 20px;
+  left: 160px;
+  color: rgb(63, 63, 63);
+  font-size: 25px;
+  font-family: PF-Agora-Sans-Pro-Light;
+  font-weight: normal;
+}
+
+section.action > div p {
+  position: absolute;
+  top: 60px;
+  left: 160px;
+  /*  width: 640px;*/
+  line-height: 1.538;
+  font-size: 13px;
+  font-family: Tahoma;
+  color: rgb(94, 94, 94);
+  font-weight: normal;
+}
+
+.details,
+.details:link,
+.details:visited,
+.details:active {
+  text-decoration: none;
+  color: #5f93a2
+}
+
+.details:hover {
+  text-decoration: underline;
+  color: #5f93a2;
+}

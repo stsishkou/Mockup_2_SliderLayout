@@ -1,0 +1,130 @@
+article.center {
+  width: 896px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.product h2 {
+  font-size: 36px;
+  font-family: PF-Agora-Sans-Pro-Light;
+  color: rgb(63, 63, 63);
+  padding-bottom: 20px;
+}
+
+.product p {
+  font-size: 14px;
+  font-family: Tahoma;
+  color: rgb(75, 75, 75);
+  line-height: 1.643;
+}
+
+.items {
+  width: 896px;
+}
+
+.item {
+  width: 33%;
+  float: left;
+  position: relative;
+}
+
+.item img {
+  height: 114px;
+  float: left;
+}
+
+.item:nth-child(1):after {
+  content: '';
+  position: absolute;
+  top: 60px;
+  left: 55px;
+  width: 64px;
+  height: 74px;
+  background: url(../img/red_apple.png) no-repeat;
+}
+
+.item:nth-child(2):after {
+  content: '';
+  position: absolute;
+  top: 60px;
+  left: 55px;
+  width: 64px;
+  height: 74px;
+  background: url(../img/yellow_apple.png) no-repeat;
+}
+
+.item:nth-child(3):after {
+  content: '';
+  position: absolute;
+  top: 60px;
+  left: 55px;
+  width: 64px;
+  height: 74px;
+  background: url(../img/green_apple.png) no-repeat;
+}
+
+.item > img ~ * {
+  margin-left: 134px;
+  width: 175px;
+  margin-bottom: 20px;  
+}
+
+.item h2 {
+  font-size: 25px;
+  font-family: PF-Agora-Sans-Pro-Light;
+  color: rgb(63, 63, 63);
+  padding-top: 10px;
+}
+
+.item p {
+  font-size: 13px;
+  font-family: Tahoma;
+  line-height: 1.538;
+  color: rgb(75, 75, 75);
+}
+
+.item a,
+.item a div {
+  display: inline-block;
+  font-size: 14px;
+  font-family: PF-Agora-Sans-Pro-Medium;
+}
+
+.item a {
+  position: relative;
+}
+
+.item a div:nth-child(1) {
+  color: white;
+  background-color: #444444;
+  padding: 6px;
+}
+
+.item a div:nth-child(2) {
+  color: white;
+  padding: 6px 0 6px 6px;
+  background-color: black;
+}
+
+.item div:nth-child(1):before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14.5px 15px 14.5px 0;
+  border-color: transparent #444444 transparent transparent ;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: -15px;
+}
+
+.item div:nth-child(2):after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+border-width: 14.5px 0 14.5px 15px;
+border-color: transparent transparent transparent black;
+  position: absolute;
+  content: '';
+  top: 0;
+}
