@@ -1,0 +1,44 @@
+.slider {
+  position: absolute;
+  width: 1050px;
+  height: 594px;
+  background: url(../img/loveis.png) center center no-repeat;
+}
+
+.slides {
+  height: 100%;
+  width: 100%;
+}
+
+.slides li {
+  list-style: none;
+}
+
+li.active {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.slide img {
+  position: absolute;
+  width: 996px;
+  height: 524px;
+  margin-left: -496px;
+  margin-top: -272px;
+  
+}
+
+.slider:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 66px;
+  width: 274px;
+  height: 595px;
+  
+  background: url(../img/leaf.png) no-repeat;
+}

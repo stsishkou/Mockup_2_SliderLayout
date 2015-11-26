@@ -1,0 +1,46 @@
+footer {
+  width: 996px;
+  position: fixed;
+  bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo_apple_copy {
+  height: 40px;
+  float: left;
+  display: inline-block;
+  background: url(../img/logo_apple.png) no-repeat;
+  font-family: Tahoma, sans-serif;
+  padding-left: 52px;
+  padding-top: 5px;
+  color: rgb(108, 108, 108);
+  line-height: 1.2em;
+}
+
+.logo_apple_copy_above {
+  font-size: 13px;
+}
+
+.logo_apple_copy_below {
+  font-size: 11px;
+}
+
+.consult {
+  height: 55px;
+  width: 300px;
+  float: right;
+  background: url(../img/fb.png) 88% top no-repeat, url(../img/twitter.png) right bottom no-repeat;
+  color: rgb(64, 64, 64);
+  line-height: 1.3em;
+}
+
+.consult_above {
+  font-family: PF-Agora-Sans-Pro-Light;
+  font-size: 17px;
+}
+
+.consult_below {
+  font-family: PF-Agora-Sans-Pro-Medium;
+  font-size: 30px;
+}
